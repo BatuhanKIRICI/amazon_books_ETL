@@ -1,0 +1,196 @@
+[2025-03-19T00:36:53.067+0000] {processor.py:186} INFO - Started process (PID=3152) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:36:53.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:36:53.069+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:36:53.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:36:53.311+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:36:53.310+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:36:53.311+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:36:53.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.258 seconds
+[2025-03-19T00:37:23.649+0000] {processor.py:186} INFO - Started process (PID=3216) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:37:23.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:37:23.652+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:37:23.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:37:23.842+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:37:23.841+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:37:23.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:37:23.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.210 seconds
+[2025-03-19T00:37:54.099+0000] {processor.py:186} INFO - Started process (PID=3280) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:37:54.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:37:54.101+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:37:54.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:37:54.290+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:37:54.290+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:37:54.291+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:37:54.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.206 seconds
+[2025-03-19T00:38:24.404+0000] {processor.py:186} INFO - Started process (PID=3344) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:38:24.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:38:24.406+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:38:24.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:38:24.608+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:38:24.607+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:38:24.608+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:38:24.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.225 seconds
+[2025-03-19T00:38:54.873+0000] {processor.py:186} INFO - Started process (PID=3408) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:38:54.874+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:38:54.876+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:38:54.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:38:55.060+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:38:55.060+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:38:55.061+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:38:55.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.203 seconds
+[2025-03-19T00:39:25.204+0000] {processor.py:186} INFO - Started process (PID=3472) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:39:25.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:39:25.206+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:39:25.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:39:25.399+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:39:25.398+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:39:25.400+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:39:25.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.210 seconds
+[2025-03-19T00:39:55.471+0000] {processor.py:186} INFO - Started process (PID=3536) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:39:55.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:39:55.473+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:39:55.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:39:55.664+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:39:55.663+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:39:55.665+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:39:55.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.210 seconds
+[2025-03-19T00:41:14.606+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:41:14.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:41:14.609+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:41:14.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:41:14.795+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:41:14.793+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:41:14.795+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:41:14.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.211 seconds
+[2025-03-19T00:41:45.673+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:41:45.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:41:45.676+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:41:45.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:41:45.760+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:41:45.759+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:41:45.760+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:41:45.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.105 seconds
+[2025-03-19T00:41:58.001+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:41:58.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:41:58.004+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:41:58.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:41:58.080+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:41:58.079+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:41:58.080+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:41:58.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.094 seconds
+[2025-03-19T00:42:28.322+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:42:28.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:42:28.325+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:42:28.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:42:28.406+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:42:28.405+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:42:28.406+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:42:28.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2025-03-19T00:42:58.828+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:42:58.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:42:58.831+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:42:58.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:42:58.910+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:42:58.909+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:42:58.911+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:42:58.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.097 seconds
+[2025-03-19T00:43:29.401+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:43:29.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:43:29.404+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:43:29.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:43:29.488+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:43:29.487+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:43:29.488+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:43:29.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.104 seconds
+[2025-03-19T00:43:59.879+0000] {processor.py:186} INFO - Started process (PID=442) to work on /opt/airflow/dags/dag.py
+[2025-03-19T00:43:59.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-03-19T00:43:59.881+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:43:59.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-03-19T00:43:59.964+0000] {logging_mixin.py:190} INFO - [2025-03-19T00:43:59.963+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 7, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-19T00:43:59.965+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-03-19T00:43:59.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag.py took 0.102 seconds

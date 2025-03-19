@@ -1,0 +1,99 @@
+[2025-03-18T23:43:50.164+0000] {processor.py:186} INFO - Started process (PID=104) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:43:50.165+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:43:50.166+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:43:50.171+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:43:50.247+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.247+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2025-03-18T23:43:50.258+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.257+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2025-03-18T23:43:50.262+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.262+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2025-03-18T23:43:50.267+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.267+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_trigger_target_dag
+[2025-03-18T23:43:50.272+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.271+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_trigger_target_dag
+[2025-03-18T23:43:50.276+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.276+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_trigger_target_dag
+[2025-03-18T23:43:50.281+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.280+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_trigger_target_dag
+[2025-03-18T23:43:50.281+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:43:50.290+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.289+0000] {dag.py:3262} INFO - Creating ORM DAG for example_trigger_target_dag
+[2025-03-18T23:43:50.290+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:43:50.290+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:43:50.301+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.140 seconds
+[2025-03-18T23:44:21.079+0000] {processor.py:186} INFO - Started process (PID=167) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:44:21.079+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:44:21.081+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:44:21.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:44:21.085+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:44:21.097+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:44:21.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:44:21.107+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:44:21.107+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:44:21.119+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.044 seconds
+[2025-03-18T23:44:51.866+0000] {processor.py:186} INFO - Started process (PID=230) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:44:51.867+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:44:51.869+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:44:51.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:44:51.875+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:44:51.889+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:44:51.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:44:51.899+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:44:51.899+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:44:51.914+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.052 seconds
+[2025-03-18T23:45:22.196+0000] {processor.py:186} INFO - Started process (PID=293) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:45:22.196+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:45:22.197+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:45:22.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:45:22.202+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:45:22.214+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:45:22.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:45:22.225+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:45:22.225+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:45:22.238+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.046 seconds
+[2025-03-18T23:45:53.429+0000] {processor.py:186} INFO - Started process (PID=356) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:45:53.429+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:45:53.430+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:45:53.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:45:53.435+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:45:53.447+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:45:53.446+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:45:53.456+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:45:53.456+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:45:53.469+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.043 seconds
+[2025-03-18T23:46:24.559+0000] {processor.py:186} INFO - Started process (PID=419) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:46:24.559+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:46:24.560+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:46:24.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:46:24.565+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:46:24.577+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:46:24.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:46:24.587+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:46:24.586+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:46:24.600+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.045 seconds
+[2025-03-18T23:46:55.980+0000] {processor.py:186} INFO - Started process (PID=482) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:46:55.980+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:46:55.982+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:46:55.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:46:55.987+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:46:56.000+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:46:56.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:46:56.011+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:46:56.011+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:46:56.024+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.049 seconds
+[2025-03-18T23:47:26.660+0000] {processor.py:186} INFO - Started process (PID=545) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:47:26.660+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:47:26.662+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:47:26.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:47:26.667+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:47:26.679+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:47:26.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:47:26.689+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:47:26.689+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:47:26.702+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.046 seconds
+[2025-03-18T23:47:58.084+0000] {processor.py:186} INFO - Started process (PID=608) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:47:58.085+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:47:58.086+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:47:58.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:47:58.091+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:47:58.103+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:47:58.103+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:47:58.114+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:47:58.113+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:47:58.127+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.046 seconds
+[2025-03-18T23:48:28.802+0000] {processor.py:186} INFO - Started process (PID=671) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:48:28.803+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:48:28.804+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:48:28.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:48:28.809+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:48:28.821+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:48:28.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:48:28.830+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:48:28.830+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:48:28.842+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.044 seconds
+[2025-03-18T23:48:59.776+0000] {processor.py:186} INFO - Started process (PID=734) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:48:59.777+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:48:59.778+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:48:59.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:48:59.783+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:48:59.796+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:48:59.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:48:59.807+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:48:59.807+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:48:59.819+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.046 seconds
+[2025-03-18T23:49:31.013+0000] {processor.py:186} INFO - Started process (PID=797) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:49:31.013+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:49:31.015+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:49:31.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:49:31.019+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:49:31.032+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:49:31.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:49:31.042+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:49:31.042+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:49:31.056+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.047 seconds
+[2025-03-18T23:50:02.148+0000] {processor.py:186} INFO - Started process (PID=860) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:50:02.148+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-03-18T23:50:02.150+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:50:02.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:50:02.155+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-03-18T23:50:02.169+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:50:02.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-18T23:50:02.178+0000] {logging_mixin.py:190} INFO - [2025-03-18T23:50:02.178+0000] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-03-18T23:50:02.192+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.048 seconds
